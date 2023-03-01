@@ -416,24 +416,7 @@ class Main:
 		print("\033[1;32m [1] Fast Subscribe My Channel")
 		print("\033[1;33m [2] Exit")
 		print("")
-		syed = input("\n\033[1;36m  Chose ==> \033[1;32m")
-		if syed in ["", " "]:
-			exit()
-		elif syed in ["2", "02"]:
-			print("    Thanks🥰♥️")
-			exit()
-		elif syed in ["1", "01"]:
-			os.system("xdg-open https://youtube.com/channel/UCMusjl5QLXMCZuZAAzT9CpA")
-			print("")
-			time.sleep(2.0)
-			print("\033[1;33m    Your Ex Gf Name")
-			print("")
-			input("\n\033[1;32m  Type Your Ex Gf Name ==> \033[1;36m")
-			time.sleep(2.1)
-			print("")
-			print("\033[1;32m  Successfully Bro")
-			time.sleep(2.0)
-			os.system("clear")
+		
 		
 			print(logo)
 		print("╭──────────────────────────────────────────────────────────────╮")
@@ -1316,37 +1299,3 @@ class Main:
 		self.loop +=1
 
 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32m SUJON Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : "+SUJON+VAU+key1)
-		print ("")
-		name = input (" Your Name : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+SUJON+VAU+key1
-		os.system('am start https://wa.me/+9660507886506?text=' + tks)
-		Subscraption()        
-Subscraption()     
